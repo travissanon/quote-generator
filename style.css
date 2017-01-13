@@ -1,0 +1,60 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,600,400';
+
+body {
+  background-color: rgb(235,242,246);
+}
+
+.center {
+  text-align: center;
+  height: 400px;
+
+}
+
+.seperate {}
+
+.quote, .name {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 300;
+  padding-top: 150px;
+  letter-spacing: 3px;
+}
+
+p {
+  font-weight: 600;
+  font-size: 20px;
+  font-style: italic;
+  padding-top: 20px;
+  letter-spacing: 0.5px;
+}
+
+footer {
+  text-align: center;
+  margin: 0 auto;
+}
+
+button {
+  font-size: 16px;
+  color: #595959;
+  background-color: rgb(235,242,246);
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  position: relative;
+  width: 130px;
+  text-align: center;
+  outline: none;
+  margin-top: 100px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 15px;
+  }
+}
